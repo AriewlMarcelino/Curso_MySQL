@@ -1,0 +1,4 @@
+/*Selecioando uma tabela do banco de dados*/
+
+USE nome_do_banco;
+SELECT * FROM nome_tabela;

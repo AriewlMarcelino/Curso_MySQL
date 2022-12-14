@@ -1,0 +1,1 @@
+ALTER TABLE <nome_tabela> MODIFY COLUMN <coluna><tipo>;

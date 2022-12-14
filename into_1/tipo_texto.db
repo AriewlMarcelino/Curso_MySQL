@@ -1,0 +1,13 @@
+/*
+
+CHAR(x):
+    aceita textos com 0 e 255 caracteres;
+VARCHAR(x):
+    Aceita texto com 0 a 65535 caracteres;
+TINYTEXT:
+    apenas texto com até 255 caracteres;
+MEDIUMTEXT:
+    apenas texto com até 16777215 caracteres;
+    obs:CHAR e VACHAR aceitam números e caracteres especiais;
+
+*/

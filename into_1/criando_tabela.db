@@ -1,0 +1,5 @@
+/*Instruções para criação de uma tabela com colunas de dados*/
+CREATE TABLE nome_tabela(
+    nome VARCHAR(100);
+    sobrenome VARCHAR(100);
+);

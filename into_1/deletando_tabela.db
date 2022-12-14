@@ -1,0 +1,3 @@
+/*Instruções para deletar uma tabela do banco de dados*/
+
+DROP TABLE nome_tabela;

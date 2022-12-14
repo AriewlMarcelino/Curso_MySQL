@@ -1,0 +1,2 @@
+/*Inserindo informações nas colunas*/
+INSERT INTO informacaoes (nome,sobrenome) VALUES ("Paulo","Silva");

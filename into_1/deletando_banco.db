@@ -1,0 +1,3 @@
+/*Instruções para deletar um banco de dados*/
+
+DROP DATABASE nome_do_banco;

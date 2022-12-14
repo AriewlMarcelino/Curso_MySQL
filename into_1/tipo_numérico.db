@@ -1,0 +1,13 @@
+/*
+Os tipos numéricos não precisamos de aspas ao serem inseridos:
+
+BIT(x):
+    1 a 64 caracteres
+TINYINT(x):
+    1 a 255 caracteres
+BOOL:
+    0 é falso e 1 é verdadeiro;
+INT(x):
+    Valores entre -21474933648 a 2147483647;
+    
+*/

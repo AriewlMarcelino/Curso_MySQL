@@ -1,0 +1,3 @@
+/*Selecioando por USE um banco de dados*/
+
+USE nome_do_banco;

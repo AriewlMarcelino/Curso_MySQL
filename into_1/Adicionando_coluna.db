@@ -1,0 +1,3 @@
+/*Adicionando uma coluna em nossa tabela*/
+
+ALTER TABLE funcionarios ADD COLUMN profissao VARCHAR(100);

@@ -1,0 +1,2 @@
+/*Instruções para a criação de um banco de dados*/
+CREATE DATABASES nome_banco;
