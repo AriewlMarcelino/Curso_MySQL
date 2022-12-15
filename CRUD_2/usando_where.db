@@ -1,0 +1,6 @@
+/*Para podermos modificar um dado em nossa coluna podemos estar inserindo o WHERE, para evitar com que o DELETE ou UPDATE modifique todos os dados*/
+
+SELECT nome FROM cadastro WHERE nome = "paulo"
+
+/*Seleciondando dados com WHERE de forma mais especifica*/
+SELECT nome,rg,cpf,limite FROM pessoas WHERE limite = '1000';

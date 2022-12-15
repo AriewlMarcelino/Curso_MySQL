@@ -1,0 +1,2 @@
+/*Utilizando o UPDATE para atualizar dado em especifico*/
+UPDATE pessoas SET rg="578976333" WHERE nome='Rafael'; 
