@@ -1,0 +1,2 @@
+/*Deltando um dado em especifico*/
+DELETE FROM pessoas WHERE nome = 'Rafael';
