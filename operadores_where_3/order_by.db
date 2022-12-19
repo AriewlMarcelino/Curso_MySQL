@@ -1,0 +1,13 @@
+Utilizando a ORDER BY
+
+A ORDER BY é uma instrução para a ordenação de resultados;
+Podemos utilizar de forma ascendente (ASC).
+E descendente(DESC);
+E é baseados em alguma coluna, exemplo:
+ORDER BY salario ASC;
+
+/*ASC vem por padrão do menor para p maior*/
+SELECT * FROM salaries ORDER BY salary;
+
+/*DESC traz em order maior para o menor*/
+SELECT * FROM salaries ORDER BY salary DESC;

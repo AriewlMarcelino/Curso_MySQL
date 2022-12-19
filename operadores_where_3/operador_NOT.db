@@ -1,0 +1,11 @@
+Utilizando o NOT 
+
+O NOT inverte uma cláusula;
+Exemplo:
+    WHERE NOT programador = ‘programador’;
+Ou seja, teremos todos os dados retornados, menos os que são de programadores;
+Pode ser utilizado neste sentido de exclusão de dados;
+
+
+/*usando operador NOT*/
+SELECT * FROM titles WHERE NOT title = 'Staff' AND NOT title = 'Senior Engineer';

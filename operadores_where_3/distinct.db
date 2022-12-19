@@ -1,0 +1,8 @@
+/*Trabalhando com o DISTINCT , para trazer dados distintos*/
+
+
+Exemplo de uso de sintaxe;
+
+SELECT DISTINCT gender FROM employees;
+
+SELECT DISTINCT title FROM titles;

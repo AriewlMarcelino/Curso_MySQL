@@ -1,0 +1,10 @@
+
+Utilizando OR
+
+O OR tem a possibilidade de retornar qualquer uma das condições impostas;
+Exemplo:
+    WHERE salario > 5000 || profissao = ‘programador’;
+Neste caso, teremos programadores com salários menores que 5000 e também outros tipos de cargos com salários acima de 5000;
+
+/*Usando operador OR*/
+SELECT * FROM titles WHERE title = 'Senior Engineer' || title = 'Staff';

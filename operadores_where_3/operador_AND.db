@@ -1,0 +1,9 @@
+
+Todos os operadores lógicos são utilizados na programação;
+Com o AND temos um filtro duplo para resultados;
+Por exemplo:
+WHERE salario > 1000 AND cargo = ‘programador’;
+No caso acima, apenas programadores com salário maior que 1000 serão retornados no nosso SELECT;
+
+/*Usando  operador AND*/
+SELECT * FROM salaries WHERE salary > 130000 AND from_date > '1998-12-12';

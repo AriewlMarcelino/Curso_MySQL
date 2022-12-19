@@ -1,0 +1,27 @@
+Operadores
+
+Comparação (>,<,>=,<=,=): este operadores vão filtrar dados basados na condições;
+
+BETWEEN:
+    Seleção entre intervalos;
+LIKE:
+    Seleção por meio de algum padrão;
+IN:
+    Seleção entre um conjunto de valores específicos;
+
+Exemplos de Pesquisa com seletores avançados com WHERE;
+
+/* <= 65000*/
+SELECT * FROM salaries WHERE salary <= 65000;
+
+/* = 65000*/
+SELECT * FROM salaries WHERE salary = 65000;
+
+/* < 65000*/
+SELECT * FROM salaries WHERE salary < 65000;
+
+/*>= 65000*/
+SELECT * FROM salaries WHERE salary >= 65000;
+
+/*> 65000 */
+SELECT * FROM salaries WHERE salary > 65000;
