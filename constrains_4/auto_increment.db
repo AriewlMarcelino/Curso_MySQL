@@ -1,0 +1,11 @@
+AUTO INCREMENT
+
+A constraint AUTO INCREMENT serve para adicionar a quantidade de um em todo registro adicionado;
+Esta constraint é muito utilizada na coluna id, já que ele é única e também chave primary;
+Então não precisamos nos preocupar com este valor no INSERT;
+Nos ajuda a incrementar mais uma coluna de forma automática;
+
+CREATE TABLE frutas(
+    id PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(100);
+);

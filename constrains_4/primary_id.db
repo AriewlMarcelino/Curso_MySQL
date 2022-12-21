@@ -1,0 +1,7 @@
+PRIMARY KEY
+
+A constraints PRIMARY KEY só pode ser adicionado em uma única coluna da tabela,geralmente é o id;
+O valor deve ser único e não pode ser nulo;
+Podemos dizer que é um identificador único de um registro na tabela;
+
+INSERT INTO produtos (id,nome_produto,sku) VALUES ('1','Galaxy_A11','GALYA11');

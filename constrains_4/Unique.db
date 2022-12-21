@@ -1,0 +1,14 @@
+UNIQUE
+
+A constraint UNIQUE garante que todos os valores em uma coluna serão diferentes;
+Um caso de uso é e-mail, não queremos e-mails duplicados na nossa base dados;
+Desta maneira, recebemos um erro caso o dados já tenha sido inserido;
+Com esta propriedade garantimos que não tenhamos dados de maneira repetida;
+
+USE constraints;
+
+CREATE TABLE pessoas(
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(255) UNIQUE,
+    idade INT
+);

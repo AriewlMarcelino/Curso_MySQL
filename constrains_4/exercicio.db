@@ -1,0 +1,18 @@
+USE banco_exerc;
+
+/*Criando um banco com o nome banco*/
+CREATE DATABASE banco_exer;
+
+/*Criando uma tabela com o nome contas*/
+CREATE TABLE contas(
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(255),
+    sobre_nome VARCHAR (255),
+    saldo int,
+    data_nascimento DATE
+);
+
+/*Inserindo 3 informações ao banco de dados*/
+INSERT INTO contas (nome,sobre_nome,saldo,data_nascimento) VALUES ('Garlhado','Miztk','15000','2000-04-22');
+
+SELECT * FROM contas;

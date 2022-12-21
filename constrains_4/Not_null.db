@@ -1,0 +1,14 @@
+NOT NULL
+
+A constraints NOT NULL força um valor de uma coluna específica não ser nulo;
+Colocamos a instrução após o nome e tipo da coluna ser declarado:
+    nome VARCHAR(100) NOT NULL;
+Desta maneira a coluna a recebe a constraints;
+Lembrando que o NOT NULL deixará passar campos em vazio, sendo assim teremos que tomar cuidado ao usá-lo com sabedoria.
+
+USE constraints;
+
+CREATE TABLE pessoas(
+    nome VARCHAR(100) NOT NULL,
+    idade INT
+);
