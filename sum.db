@@ -1,0 +1,9 @@
+Função SUM
+
+A função SUM vai retornar a soma de todos os valores de uma coluna;
+Podemos utilizar da seguinte maneira:
+SELECT SUM(salary) FROM salaries;
+Assim teremos a soma de todos os salarios;
+ 
+/*Usando a função SUM*/
+SELECT SUM(salary) FROM salaries;

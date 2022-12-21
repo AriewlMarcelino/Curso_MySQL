@@ -1,0 +1,11 @@
+Função COUNT
+
+A função COUNT vai retornar o número de valores que combinam com algum critério;
+Podemos utilizar com o WHERE;
+exemplo:
+    SELECT COUNT (*) FROM coluna WHERE tabela > 10000;
+Assim teremos a quantidade de salários maior que 100k;
+
+
+/*Trazendo informações de numeros maiores com COUNT*/
+SELECT COUNT(*) FROM salaries WHERE salary > 100000;

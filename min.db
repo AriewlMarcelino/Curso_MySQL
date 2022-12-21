@@ -1,0 +1,10 @@
+Função MIN
+
+A função MIN vai retornar o menor valor de uma coluna específica;
+Veja um exemplo:
+SELECT MIN (coluna) FROM tabela;
+Desta maneira vamos receber apenas resultados, o de menor valor;
+
+
+SELECT * FROM employees.salaries;
+SELECT MIN(salary) AS salary FROM salaries;

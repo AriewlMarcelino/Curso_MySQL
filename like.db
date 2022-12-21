@@ -1,0 +1,13 @@
+
+Operador LIKE
+
+O LIKE é utilizado sempre em conjunto com o WHERE;
+Ele tem a premissa de filtrar ainda mais nosso resultados;
+Utilizamos também o coringa%, que ajuda mais nas buscas:
+    SELECT * FROM employees WHERE first_name LIKE ‘%ber%’;
+Desta forma teremos a seleção de todos os nomes que contém ber, não importa se for no começo ou no fim;
+
+
+
+
+SELECT * FROM employees WHERE last_name LIKE "%Mc";

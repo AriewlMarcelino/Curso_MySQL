@@ -1,0 +1,9 @@
+Função MAX
+
+A função MAX vai retornar o maior valor de uma coluna específica;
+Exemplo:
+SELECT MAX (coluna) FROM tabela;
+Desta maneira vamos receber apenas um resultados, o de maior valor;
+
+/*Trazendo o maior valor de uma coluna*/
+SELECT MAX(salary) AS salary FROM salaries;

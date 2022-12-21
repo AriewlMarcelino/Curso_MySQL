@@ -1,0 +1,10 @@
+Operador IN
+
+O IN vai fazer uma busca por um conjunto de valores;
+Exemplo:
+    SELECT * FROM dept_emp WHERE dept_no IN (‘d005’,’d004’,’d006’);
+Desta forma selecionamos os registros apenas dos departamentos d004,d005,d006;
+
+
+/*Usando a função IN*/
+SELECT * FROM dept_emp WHERE dept_no IN ('d004','d005','d006');
